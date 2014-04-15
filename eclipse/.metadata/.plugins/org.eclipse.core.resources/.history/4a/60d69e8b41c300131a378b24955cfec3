@@ -1,0 +1,44 @@
+package tutorial.DMAexample;
+
+
+//Recipes
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Items;
+import net.minecraft.init.Blocks;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraft.item.crafting.FurnaceRecipes;
+
+//Blocks
+import java.util.List;
+ 
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IconRegister;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.Icon;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
+
+public class MyCode {
+	
+	public static void MyBlocks(){
+		
+		
+		
+		
+	}
+	public static void MyRecipes(){
+		
+	}
+	
+	public static void MyItems(){
+		
+		
+	}
+	
+ 
+
+}

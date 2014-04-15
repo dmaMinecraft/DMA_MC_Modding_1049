@@ -1,0 +1,30 @@
+package tutorial.DMAexample;
+
+
+//Recipes
+import net.minecraft.init.Items;
+import net.minecraft.init.Blocks;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraft.item.crafting.FurnaceRecipes;
+
+
+public class MyCode {
+	
+	public static void MyBlocks(){
+		
+		
+		
+		
+	}
+	public static void MyRecipes(){
+		
+	}
+	
+	public static void MyItems(){
+		
+		
+	}
+	
+ 
+
+}

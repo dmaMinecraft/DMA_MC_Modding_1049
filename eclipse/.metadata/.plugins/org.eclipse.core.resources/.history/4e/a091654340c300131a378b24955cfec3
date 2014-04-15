@@ -1,0 +1,20 @@
+package tutorial.DMAexample;
+
+public class MyCode {
+	
+	public static void MyBlocks(){
+		
+		
+	}
+	public static void MyRecipes(){
+		
+	}
+	
+	public class MyItems(){
+		
+		
+	}
+	
+ 
+
+}
