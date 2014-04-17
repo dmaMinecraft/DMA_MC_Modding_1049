@@ -81,12 +81,8 @@ public class MyCode {
 		
 		//Smelting
 		
-		//Cookie Cooked Steak
-		GameRegistry.addSmelting(Items.cookie, new ItemStack(Items.cooked_beef, 1), 1.0F);
-		
-		
-		//ItemStack newEnchantment = new ItemStack(Item);
-		//newEnchantment.addEnchantment(Enchantment.sharpness, lvl);
+		//Hard Mud Steak
+		GameRegistry.addSmelting(hardDirt, new ItemStack(Items.beef,2, 1), 1.0F);
 		
 	}
 	

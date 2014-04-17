@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="tutorial.DMAexample.CraftingRecipes"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.LanguageRegistry"/>
+<fullyQualifiedTypeName name="tutorial.DMAexample.MyBlocks.HardDirtBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+</qualifiedTypeNameHistroy>

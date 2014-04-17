@@ -80,13 +80,7 @@ public class MyCode {
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 1, 3), new Object[] { new ItemStack(Blocks.sapling) });
 		
 		//Smelting
-		
-		//Cookie Cooked Steak
-		GameRegistry.addSmelting(Items.cookie, new ItemStack(Items.cooked_beef, 1), 1.0F);
-		
-		
-		//ItemStack newEnchantment = new ItemStack(Item);
-		//newEnchantment.addEnchantment(Enchantment.sharpness, lvl);
+		GameRegistry.addSmelting(hardDirt, new ItemStack(Items.beef, 1), 1.0F);
 		
 	}
 	
