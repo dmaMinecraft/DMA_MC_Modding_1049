@@ -1,0 +1,16 @@
+[
+{
+  "modid": "YourModsName",
+  "name": "DMA Example Mod",
+  "description": "DMA Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["DMA Modding Example GUY"],
+  "credits": "Created by ME",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

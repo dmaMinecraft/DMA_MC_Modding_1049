@@ -1,0 +1,28 @@
+package tutorial.DMAexample.MyBlocks;
+
+import java.util.Random;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockOre;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.block.material.Material;
+
+public class HardOre extends Block
+{
+         public HardOre(int id, Material material) 
+     {
+             super(id, material);
+                
+                setHardness(4.0F); // 33% harder than diamond
+                setStepSound(Block);
+                setNameBlock("genericOre");
+                setCreativeTab(CreativeTabs.tabBlock);
+        }
+        
+/*
+        NOT UP TO 1.7 YET
+        public int idDropped(int par1, Random random, int par2) {
+                return Generic.genericIngot.itemID;
+        }
+
+*/
+}

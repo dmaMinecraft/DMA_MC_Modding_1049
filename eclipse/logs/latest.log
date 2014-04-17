@@ -1,6 +1,70 @@
-[22:01:41] [main/INFO]: Setting user: Player32
-[22:01:42] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:01:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:DMA Example
-[22:01:45] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:01:45] [Sound Library Loader/INFO]: Sound engine started
-[22:01:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:07:51] [main/INFO]: Setting user: Player946
+[14:07:52] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:07:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:DMA Example Mod
+[14:07:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:07:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:07:57] [Sound Library Loader/INFO]: Sound engine started
+[14:07:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:07:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:07:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:DMA Example Mod
+[14:07:57] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:07:57] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:07:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:07:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:07:58] [Sound Library Loader/INFO]: Sound engine started
+[14:07:58] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[14:08:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[14:08:02] [Server thread/INFO]: Generating keypair
+[14:08:02] [Server thread/INFO]: Preparing start region for level 0
+[14:08:03] [Server thread/INFO]: Player946[local:E:e4994cb0] logged in with entity id 392 at (29.53218212109595, 68.0, 239.26728339505635)
+[14:08:03] [Server thread/INFO]: Player946 joined the game
+[14:08:04] [Server thread/INFO]: Saving and pausing game...
+[14:08:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:08:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:08:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:08:06] [Server thread/INFO]: Player946 has just earned the achievement [Taking Inventory]
+[14:08:06] [Client thread/INFO]: [CHAT] Player946 has just earned the achievement [Taking Inventory]
+[14:08:11] [Server thread/INFO]: Saving and pausing game...
+[14:08:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:08:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:08:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:08:12] [Server thread/INFO]: Stopping server
+[14:08:12] [Server thread/INFO]: Saving players
+[14:08:12] [Server thread/INFO]: Saving worlds
+[14:08:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:08:12] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:08:12] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:08:24] [Client thread/INFO]: Stopping!
+r301
+[14:08:23] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:08:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:DMA Example Mod
+[14:08:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:08:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:08:26] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:08:26] [Sound Library Loader/INFO]: Sound engine started
+[14:08:26] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:08:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:DMA Example Mod
+[14:08:26] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:08:26] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:08:26] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:08:26] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:08:27] [Sound Library Loader/INFO]: Sound engine started
+[14:08:28] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[14:08:33] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[14:08:33] [Server thread/INFO]: Generating keypair
+[14:08:33] [Server thread/INFO]: Preparing start region for level 0
+[14:08:34] [Server thread/INFO]: Player301[local:E:0f45e27a] logged in with entity id 398 at (29.859728309642268, 67.0, 237.73689573273174)
+[14:08:34] [Server thread/INFO]: Player301 joined the game
+[14:08:35] [Server thread/INFO]: Player301 has just earned the achievement [Taking Inventory]
+[14:08:35] [Client thread/INFO]: [CHAT] Player301 has just earned the achievement [Taking Inventory]
+[14:27:39] [Server thread/INFO]: Saving and pausing game...
+[14:27:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:27:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:27:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:27:40] [Server thread/INFO]: Stopping server
+[14:27:40] [Server thread/INFO]: Saving players
+[14:27:40] [Server thread/INFO]: Saving worlds
+[14:27:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:27:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:27:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:27:41] [Client thread/INFO]: Stopping!
