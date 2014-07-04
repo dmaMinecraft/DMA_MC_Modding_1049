@@ -1,0 +1,12 @@
+package tutorial.DMAexample.MyItems;
+
+import net.minecraft.item.ItemAxe;
+import net.minecraft.item.ItemPickaxe;
+
+public class CustomAxe extends ItemPickaxe
+{
+public CustomAxe(ToolMaterial material)
+{
+super(material);
+}
+}

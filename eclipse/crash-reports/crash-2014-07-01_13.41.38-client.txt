@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 7/1/14 1:41 PM
+Description: Unexpected error
+
+java.lang.ClassCastException: tutorial.DMAexample.MyBlocks.MyDragonEggBlock cannot be cast to net.minecraft.block.BlockDragonEgg
+	at net.minecraft.client.renderer.RenderBlocks.renderBlockByRenderType(RenderBlocks.java:410)
+	at net.minecraft.client.renderer.WorldRenderer.updateRenderer(WorldRenderer.java:206)
+	at net.minecraft.client.renderer.RenderGlobal.updateRenderers(RenderGlobal.java:1616)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1259)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1094)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1024)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:912)
+	at net.minecraft.client.main.Main.main(Main.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.renderer.RenderBlocks.renderBlockByRenderType(RenderBlocks.java:410)
+	at net.minecraft.client.renderer.WorldRenderer.updateRenderer(WorldRenderer.java:206)
+	at net.minecraft.client.renderer.RenderGlobal.updateRenderers(RenderGlobal.java:1616)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1259)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player141'/450, l='MpServer', x=119.79, y=71.62, z=253.65]]
+	Chunk stats: MultiplayerChunkCache: 15, 15
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (120,64,256), Chunk: (at 8,4,0 in 7,16; contains blocks 112,0,256 to 127,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 299 game time, 299 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 10 total; [EntityPig['Pig'/155, l='MpServer', x=86.50, y=71.00, z=285.22], EntityCow['Cow'/233, l='MpServer', x=149.28, y=67.00, z=240.75], EntityCow['Cow'/232, l='MpServer', x=151.97, y=67.00, z=239.50], EntityCow['Cow'/197, l='MpServer', x=121.19, y=70.00, z=236.22], EntityCow['Cow'/196, l='MpServer', x=118.38, y=70.00, z=236.69], EntityCow['Cow'/199, l='MpServer', x=120.38, y=70.00, z=234.47], EntityCow['Cow'/198, l='MpServer', x=118.47, y=71.00, z=234.47], EntityClientPlayerMP['Player141'/450, l='MpServer', x=119.79, y=71.62, z=253.65], EntityCow['Cow'/210, l='MpServer', x=141.28, y=69.00, z=237.53], EntityCow['Cow'/211, l='MpServer', x=143.41, y=68.00, z=239.41]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:412)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2517)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:941)
+	at net.minecraft.client.main.Main.main(Main.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Mac OS X (x86_64) version 10.9.3
+	Java Version: 1.6.0_65, Apple Inc.
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Apple Inc.
+	Memory: 912558768 bytes (870 MB) / 1060372480 bytes (1011 MB) up to 1060372480 bytes (1011 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 10003 (560168 bytes; 0 MB) allocated, 10003 (560168 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.01-pre FML v7.2.137.1049 Minecraft Forge 10.12.0.1049 4 mods loaded, 4 mods active
+	mcp{8.09} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{7.2.137.1049} [Forge Mod Loader] (forgeSrc-1.7.2-10.12.0.1049.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{10.12.0.1049} [Minecraft Forge] (forgeSrc-1.7.2-10.12.0.1049.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	DMA Example{1.0} [DMA Example] (bin) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Launched Version: 1.6
+	LWJGL: 2.9.1
+	OpenGL: NVIDIA GeForce GT 650M OpenGL Engine GL version 2.1 NVIDIA-8.26.21 310.40.35f08, NVIDIA Corporation
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 30 (1680 bytes; 0 MB) allocated, 30 (1680 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

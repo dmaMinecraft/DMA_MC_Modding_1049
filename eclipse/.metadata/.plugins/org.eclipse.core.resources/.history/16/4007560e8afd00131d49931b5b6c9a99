@@ -1,0 +1,30 @@
+package tutorial.DMAexample.MyBlocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+
+public class MyIceBlock extends Block 
+	{
+
+	        public MyIceBlock (Material material) 
+	        {
+	        	
+	                super(material);
+	                
+	                this.slipperiness = 7.0F;
+	                this.setTickRandomly(true);
+	                this.setCreativeTab(CreativeTabs.tabBlock);
+	        }
+	        //If the block's drop is a block.
+	        @Override
+	        public Item getItemDropped(int metadata, Random random, int fortune) {
+	            
+	        	int d, rh;
+     	
+	        	rh = random.nextInt(99)+1;
+	        	return Item.getItemFromBlock(Generic.genericBlock);
+	        }
+	}

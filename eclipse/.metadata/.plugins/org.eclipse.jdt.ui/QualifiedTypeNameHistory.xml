@@ -6,4 +6,13 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.LanguageRegistry"/>
 <fullyQualifiedTypeName name="tutorial.DMAexample.MyBlocks.HardDirtBlock"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="tutorial.DMAexample.MyCode"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor.ArmorMaterial"/>
+<fullyQualifiedTypeName name="tutorial.DMAexample.MyBlocks.MyDragonEggBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntityThrowable"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemPickaxe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
+<fullyQualifiedTypeName name="tutorial.DMAexample.MyItems.CustomSword"/>
 </qualifiedTypeNameHistroy>

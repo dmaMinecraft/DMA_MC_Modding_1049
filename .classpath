@@ -39,7 +39,7 @@
 	<classpathentry sourcepath="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/945ff5711de27751cf699641d1ea316ba6cf7589/libraryjavasound-20101123-sources.jar" kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar" exported="true"/>
 	<classpathentry sourcepath="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/ecfc8dac1d41bef748997e4edf563d486923ee1e/librarylwjglopenal-20100824-sources.jar" kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar" exported="true">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/DMA_VR/Desktop/MinecraftForge/forge-1.7.2-10.12.0.1049-src/build/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Course Assets/mc_modding/DMA_MC_Modding_1049/build/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/1b9f4eb11ef11fede7fd76a2e5e8203c2a8adcd/soundsystem-20120107-sources.jar" kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar" exported="true"/>
@@ -66,7 +66,7 @@
 	<classpathentry sourcepath="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/82604cfeb87b9ab70ed70aa19a137de8ceb21504/jinput-2.0.5-sources.jar" kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar" exported="true">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/695a26a9a58e8495c1e3ce7b7f3bec23ecf2ef16/jinput-2.0.5-javadoc.jar!/"/>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/DMA_VR/Desktop/MinecraftForge/forge-1.7.2-10.12.0.1049-src/build/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Course Assets/mc_modding/DMA_MC_Modding_1049/build/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/d18678a00b216863206a1bb6190507e02a32971b/jutils-1.0.0-sources.jar" kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar" exported="true">
@@ -92,32 +92,32 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1-nightly-20131017/148d2981251ad796e50922dabfb9354ec26741dd/lwjgl-2.9.1-nightly-20131017.jar" exported="true">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/DMA_VR/Desktop/MinecraftForge/forge-1.7.2-10.12.0.1049-src/build/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Course Assets/mc_modding/DMA_MC_Modding_1049/build/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.1-nightly-20131017/b4570ef98d017fa8f515a202e727dd12f6ef52f3/lwjgl_util-2.9.1-nightly-20131017.jar" exported="true">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/DMA_VR/Desktop/MinecraftForge/forge-1.7.2-10.12.0.1049-src/build/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Course Assets/mc_modding/DMA_MC_Modding_1049/build/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1-nightly-20131017/54241f3f8dac9617ca1ff335ffd3939f849c5017/lwjgl-platform-2.9.1-nightly-20131017-natives-osx.jar" exported="true">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/DMA_VR/Desktop/MinecraftForge/forge-1.7.2-10.12.0.1049-src/build/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Course Assets/mc_modding/DMA_MC_Modding_1049/build/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar" exported="true">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/DMA_VR/Desktop/MinecraftForge/forge-1.7.2-10.12.0.1049-src/build/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Course Assets/mc_modding/DMA_MC_Modding_1049/build/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar" exported="true">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/DMA_VR/Desktop/MinecraftForge/forge-1.7.2-10.12.0.1049-src/build/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Course Assets/mc_modding/DMA_MC_Modding_1049/build/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar" exported="true">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/DMA_VR/Desktop/MinecraftForge/forge-1.7.2-10.12.0.1049-src/build/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Course Assets/mc_modding/DMA_MC_Modding_1049/build/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.10.2/ffa6bfd77b52043f4ffc8d9c7f7de086e1e839e7/scala-reflect-2.10.2-sources.jar" kind="lib" path="/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.10.2/444ff8e89a81697997ed8a98a4642ba283130249/scala-reflect-2.10.2.jar" exported="true">
@@ -125,4 +125,5 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/DMA_VR/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.10.2/6bcae4ac7f8f165926785b5faf957f69405b73ed/scala-reflect-2.10.2-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/start" exported="true"/>
 </classpath>

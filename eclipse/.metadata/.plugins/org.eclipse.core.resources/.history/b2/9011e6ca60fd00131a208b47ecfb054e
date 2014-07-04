@@ -1,0 +1,169 @@
+package tutorial.DMAexample;
+
+//Recipes - Very important imports for creating recipes
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Items;
+import net.minecraft.init.Blocks;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
+
+
+//MyBlocks
+import tutorial.DMAexample.MyBlocks.HardDirtBlock;
+import tutorial.DMAexample.MyBlocks.HardOre;
+import tutorial.DMAexample.MyBlocks.BaseBlock;
+import tutorial.DMAexample.MyBlocks.MyIceBlock;
+import tutorial.DMAexample.MyBlocks.MyTntBlock;
+import tutorial.DMAexample.MyBlocks.SSlabBlock;
+
+//MyItems
+import tutorial.DMAexample.MyItems.BaseItem;
+import tutorial.DMAexample.MyItems.CustomAxe;
+import tutorial.DMAexample.MyItems.MyLauncherItem;
+import tutorial.DMAexample.MyItems.MyBowItem;
+
+
+
+//Blocks
+import java.util.List;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.IIcon;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
+//Items
+import net.minecraft.util.MathHelper;
+
+public class MyCode {
+	
+	//List Blocks and Items Here
+	public static Block hardDirt;
+	public static Block hardOre;
+	public static Block iceExam;
+	public static Block boneBlock;
+	public static Item MyBow;
+	public static Item MyLauncher;
+	public static Item axeTutorial;
+	
+    public static Item.ToolMaterial TUTORIALMATERIAL = EnumHelper.addToolMaterial("TUTORIALMATERIAL", 3, 192, 5.0F, 1.5F, 12);
+
+	
+	public static void MyBlocks(){
+		
+		
+		//Example Block - Ice
+		iceExam = new MyIceBlock(Material.ground)
+        .setHardness(0.5F)
+        .setStepSound(Block.soundTypeGravel)
+        .setBlockName("iceExam")
+        .setCreativeTab(CreativeTabs.tabBlock)
+        .setBlockTextureName("mycode:iceexam");
+		
+		// Bone
+		boneBlock = new MyTntBlock(Material.ground)
+        .setHardness(1.5F)
+        .setStepSound(Block.soundTypeGravel)
+        .setBlockName("boneBlock")
+        .setCreativeTab(CreativeTabs.tabBlock)
+        .setBlockTextureName("mycode:iceexam");
+		
+		
+		//Harden Dirt
+		 hardDirt = new HardDirtBlock(Material.ground)
+         .setHardness(2.0F)
+         .setStepSound(Block.soundTypeGravel)
+         .setBlockName("hardDirt")
+         .setCreativeTab(CreativeTabs.tabBlock)
+         .setBlockTextureName("dirt");
+		 
+		 //Harden Ore
+		 hardOre = new HardOre(Material.rock)
+		 .setHardness(0.9F)
+         .setStepSound(Block.soundTypeGravel)
+         .setBlockName("hardOre")
+         .setCreativeTab(CreativeTabs.tabBlock)
+         .setBlockTextureName("stone");
+		 
+		 //Harvest Level
+		 hardDirt.setHarvestLevel("shovel", 1);
+		 hardOre.setHarvestLevel("pickaxe", 3);		 
+		 
+		 //Register Items
+		 GameRegistry.registerBlock(hardDirt, "HardDirt");
+		 GameRegistry.registerBlock(hardOre, "HardOre");
+		 GameRegistry.registerBlock(iceExam, "IceExam");
+		 GameRegistry.registerBlock(boneBlock, "BoneBlock");
+		
+	}
+	
+	public static void MyRecipes()
+	{
+		
+	//Shaped 
+		//Comment Every Recipe!!!!!!!!!!!!!!!!!!! This makes this from that
+		 GameRegistry.addRecipe(new ItemStack(Items.pumpkin_pie), new Object[] 
+				{
+			    "EAD", "BCA", "DBE",
+				'A', Blocks.quartz_block,
+				'B', Blocks.gold_block,
+				'C', Blocks.dirt,
+				'D', Blocks.diamond_ore,
+				'E', Items.diamond_sword
+				});
+		 
+		 GameRegistry.addRecipe(new ItemStack(Items.pumpkin_pie, 10), new Object[] 
+					{
+				    " A ", "AB ", " C ",
+					'A', Blocks.gold_block,
+					'B', new ItemStack(Items.dye, 1, 3),
+				    'C', Blocks.cactus,
+					});
+	//Shapeless
+		//GameRegistry.addShapelessRecipe( new ItemStack(Blocks.brown_mushroom),  new Object[] {new ItemStack(Items.cookie)});
+		//GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 1, 3), new Object[] { new ItemStack(Blocks.sapling) });
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.command_block), new Object[] { new ItemStack(Blocks.redstone_torch) });
+			
+		
+	//Smelting
+		
+		//Cookie Cooked Steak
+			GameRegistry.addSmelting(new ItemStack(Items.dye, 1, 3), new ItemStack(hardOre, 8), 1.0F);
+		
+		
+		//ItemStack newEnchantment = new ItemStack(Item);
+		//newEnchantment.addEnchantment(Enchantment.sharpness, lvl);
+		
+	}
+	
+	public static void MyItems()
+	{
+		
+		 MyBow = new BaseItem()
+		 		.setMaxStackSize(1)
+		 		.setUnlocalizedName("abow");
+		 	  
+        	 
+	       
+         GameRegistry.registerItem(MyBow, "BaseTest");
+         
+         axeTutorial = new CustomAxe(TUTORIALMATERIAL)
+         	.setUnlocalizedName("axeTutorial");
+         
+         GameRegistry.registerItem(axeTutorial, "axeTutorial");
+     
+		
+	}
+	
+ 
+
+}
