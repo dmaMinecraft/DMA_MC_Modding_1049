@@ -9,6 +9,7 @@ import net.minecraft.init.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 //import net.minecraftforge.common.util.EnumHelper;
 import net.minecraft.item.crafting.FurnaceRecipes;
+import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraftforge.common.util.EnumHelper;
@@ -27,9 +28,12 @@ import tutorial.DMAexample.MyBlocks.MyBlockSlide;
 import tutorial.DMAexample.MyItems.BaseItem;
 import tutorial.DMAexample.MyItems.CustomAxe;
 import tutorial.DMAexample.MyItems.CustomSword;
+import tutorial.DMAexample.MyItems.DeathBallEntity;
 import tutorial.DMAexample.MyItems.MyLauncherItem;
 import tutorial.DMAexample.MyItems.MyBowItem;
 import tutorial.DMAexample.MyItems.MyCustomSword;
+import tutorial.DMAexample.MyItems.PlasmaItem;
+
 
 //OreGen
 import tutorial.DMAexample.MyOreGenerator;
@@ -37,6 +41,8 @@ import tutorial.DMAexample.MyOreGenerator;
 
 //MyCreative Tab
 import net.minecraft.creativetab.CreativeTabs;
+
+
 
 
 
@@ -82,6 +88,7 @@ public class MyCode {
 	public static Item MyLauncher;
 	public static Item myCustomSword;
 	public static Item MyFood;
+	public static Item Plasma;
 
 	
 	
@@ -154,11 +161,12 @@ public class MyCode {
 				    'D', hardDirt,
 					});
 		 
-		 ItemStack newEnchantment = new ItemStack(Items.cooked_beef);
-			newEnchantment.addEnchantment(Enchantment.sharpness, 3);
+		 ItemStack sharpSteak = new ItemStack(MyBow);
+		 sharpSteak.addEnchantment(Enchantment.sharpness, 300);
+		 //sharpSteak.addEnchantment(Enchantment.sharpness, 3);
 		 
 		 //Make Pumpkin Pie - Really messed up pumpkin pie recipe 
-		 GameRegistry.addRecipe( newEnchantment, new Object[] 
+		 GameRegistry.addRecipe(sharpSteak, new Object[] 
 					{
 				    " A", "AB",
 					'A', Blocks.gold_block,
@@ -185,6 +193,14 @@ public class MyCode {
 		.setMaxStackSize(1)
 		.setUnlocalizedName("launcher_item");
 		
+		Plasma = new PlasmaItem()
+		.setMaxStackSize(1)
+		.setUnlocalizedName("myplasma")
+		.setTextureName("launcher_item");
+		
+		// EntityRegistry.registerModEntity(DeathBallEntity.class, "BlasterBolt", 2, 2, 120, 3, true );
+
+		
 		 MyBow = new MyBowItem()
 		 		.setMaxStackSize(1)
 		 		.setCreativeTab(CreativeTabs.tabBlock)
@@ -195,7 +211,7 @@ public class MyCode {
 		 .setUnlocalizedName("potatoBaked")
 		 .setTextureName("potato_baked");
         	 
-	       
+		 GameRegistry.registerItem(Plasma, "Super Plasma Gun");  
          GameRegistry.registerItem(MyBow, "MyBow");
          GameRegistry.registerItem(MyLauncher, "MyLauncher");
          

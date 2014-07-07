@@ -1,0 +1,12 @@
+package tutorial.DMAexample;
+
+import cpw.mods.fml.client.registry.RenderingRegistry;
+
+public class CommonProxy {
+
+        // Client stuff
+        public void registerRenderers() {
+                // Nothing here as the server doesn't render graphics or entities!
+        	 RenderingRegistry.registerEntityRenderingHandler(DeathBallEntity.class, new RenderBlasterBolt());
+        }
+}

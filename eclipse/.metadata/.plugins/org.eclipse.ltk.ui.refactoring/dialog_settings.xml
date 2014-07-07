@@ -10,6 +10,11 @@
 		<item value="false" key="moveWizard.updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
 	</section>
+	<section name="RefactoringStatusDialog">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+		<item value="472" key="DIALOG_HEIGHT"/>
+	</section>
 	<section name="RefactoringWizard.Clean Up">
 		<item value="641" key="width"/>
 		<item value="334" key="height"/>

@@ -2,22 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="mybow" key="selection"/>
+		<item value="EntityPlasma" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="MYBOW"/>
-			<item value="abow"/>
 			<item value="EntitySnowball"/>
-			<item value="launcher_item"/>
-			<item value="launcher"/>
-			<item value="getMotionFactor()"/>
-			<item value="wheat"/>
-			<item value="sap"/>
+			<item value="text"/>
+			<item value="load"/>
+			<item value="snow"/>
+			<item value=".png"/>
+			<item value="mylaunc"/>
+			<item value="my"/>
+			<item value="mylaunch"/>
 		</list>
 		<list key="replacehistory">
+			<item value="EntityPlasma"/>
 			<item value="DeathBallEntity"/>
 		</list>
 	</section>
@@ -25,7 +26,7 @@
 		<item value="263" key="DIALOG_WIDTH"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="379" key="DIALOG_Y_ORIGIN"/>
+		<item value="120" key="DIALOG_Y_ORIGIN"/>
 		<item value="52" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>

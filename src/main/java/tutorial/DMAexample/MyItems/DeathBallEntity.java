@@ -45,14 +45,16 @@ public class DeathBallEntity extends EntityThrowable
 
         for (int i = 0; i < 8; ++i)
         {
-            this.worldObj.spawnParticle("snowballpoof", this.posX, this.posY, this.posZ, 0.0D, 0.0D, 0.0D);
+            this.worldObj.spawnParticle("fireProjectile", this.posX, this.posY, this.posZ, 0.0D, 0.0D, 0.0D);
             if (i == 1)
             	{ explode();}
         }
 
         if (!this.worldObj.isRemote)
         {
+        	 worldObj.spawnParticle("flame", this.posX, this.posY, this.posZ, 0.0D, 0.0D, 0.0D);
             this.setDead();
+          
         }
     }
     
