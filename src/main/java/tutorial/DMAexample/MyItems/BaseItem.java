@@ -40,7 +40,7 @@ public class BaseItem extends Item
 	        @SideOnly(Side.CLIENT) 
 	        public void registerIcons(IIconRegister par1IconRegister)
 	        {
-	            this.itemIcon = par1IconRegister.registerIcon("mycode:" 
+	            this.itemIcon = par1IconRegister.registerIcon("yourmodsname:" 
 	            + (this.getUnlocalizedName().substring(5)));
 	        }
 	      }

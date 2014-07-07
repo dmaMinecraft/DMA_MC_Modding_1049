@@ -18,23 +18,17 @@ import net.minecraftforge.common.util.EnumHelper;
 import tutorial.DMAexample.MyBlocks.HardDirtBlock;
 import tutorial.DMAexample.MyBlocks.HardOre;
 import tutorial.DMAexample.MyBlocks.BaseBlock;
-import tutorial.DMAexample.MyBlocks.MyDragonEggBlock;
 import tutorial.DMAexample.MyBlocks.MyIceBlock;
 import tutorial.DMAexample.MyBlocks.MyTntBlock;
-import tutorial.DMAexample.MyBlocks.SSlabBlock;
 import tutorial.DMAexample.MyBlocks.MyBlockSlide;
 
+import tutorial.DMAexample.MyEntities.DeathBallEntity;
 //MyItems
 import tutorial.DMAexample.MyItems.BaseItem;
 import tutorial.DMAexample.MyItems.CustomAxe;
 import tutorial.DMAexample.MyItems.CustomSword;
-import tutorial.DMAexample.MyItems.DeathBallEntity;
 import tutorial.DMAexample.MyItems.MyLauncherItem;
 import tutorial.DMAexample.MyItems.MyBowItem;
-import tutorial.DMAexample.MyItems.MyCustomSword;
-import tutorial.DMAexample.MyItems.PlasmaItem;
-
-
 //OreGen
 import tutorial.DMAexample.MyOreGenerator;
 
@@ -43,27 +37,14 @@ import tutorial.DMAexample.MyOreGenerator;
 import net.minecraft.creativetab.CreativeTabs;
 
 
-
-
-
-
-
-
-
-
-
-
-
 //Blocks
 import java.util.List;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -86,9 +67,9 @@ public class MyCode {
 	//Items
 	public static Item MyBow;
 	public static Item MyLauncher;
+	public static Item myCustomAxe;
 	public static Item myCustomSword;
 	public static Item MyFood;
-	public static Item Plasma;
 
 	
 	
@@ -119,7 +100,7 @@ public class MyCode {
          .setStepSound(Block.soundTypeGravel)
          .setBlockName("harderDirt")
          .setCreativeTab(CreativeTabs.tabBlock)
-         .setBlockTextureName("mycode:mycom_block");
+         .setBlockTextureName("yourmodsname:mycom_block");
 		 
 		 //Harden Ore
 		 hardOre = new HardOre(Material.iron)
@@ -127,7 +108,7 @@ public class MyCode {
          .setStepSound(Block.soundTypeGravel)
          .setBlockName("hardOre")
          .setCreativeTab(CreativeTabs.tabBlock)
-         .setBlockTextureName("mycode:my_dragon_egg");
+         .setBlockTextureName("yourmodsname:my_dragon_egg");
 		 
 		 //Harvest Level
 		 hardDirt.setHarvestLevel("shovel", 1);
@@ -147,6 +128,10 @@ public class MyCode {
 	
 	public static void MyRecipes()
 	{
+		
+	//Shapeless - First Shapeless Recipe (CommandBlock from Red Stone Torch)
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.command_block), new Object[] { new ItemStack(Blocks.redstone_torch) });
+				
 		
 	//Shaped 
 		
@@ -172,8 +157,6 @@ public class MyCode {
 					'A', Blocks.gold_block,
 				    'B', Blocks.dirt,
 					});
-	//Shapeless - First Shapeless Recipe (CommandBlock from Red Stone Torch)
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.command_block), new Object[] { new ItemStack(Blocks.redstone_torch) });
 			
 		
 	//Smelting
@@ -192,34 +175,37 @@ public class MyCode {
 		MyLauncher = new MyLauncherItem()
 		.setMaxStackSize(1)
 		.setUnlocalizedName("launcher_item");
-		
-		Plasma = new PlasmaItem()
-		.setMaxStackSize(1)
-		.setUnlocalizedName("myplasma")
-		.setTextureName("launcher_item");
-		
-		// EntityRegistry.registerModEntity(DeathBallEntity.class, "BlasterBolt", 2, 2, 120, 3, true );
 
-		
+		/*
 		 MyBow = new MyBowItem()
 		 		.setMaxStackSize(1)
 		 		.setCreativeTab(CreativeTabs.tabBlock)
-		 		.setTextureName("mycode:mybow")
+		 		.setTextureName("yourmodsname:mybow")
 		 		.setUnlocalizedName("mybow");
-		 
+		 GameRegistry.registerItem(MyBow, "MyBow");
+		 */
+		
 		 MyFood = new ItemFood(6, 0.6F, false)
 		 .setUnlocalizedName("potatoBaked")
 		 .setTextureName("potato_baked");
-        	 
-		 GameRegistry.registerItem(Plasma, "Super Plasma Gun");  
-         GameRegistry.registerItem(MyBow, "MyBow");
+        	  
+         //Custom Sword
+         //myCustomSword = new CustomSword(PLA)
+         //.setUnlocalizedName("customsword");
+		//GameRegistry.registerItem(myCustomSword, "CustomSword");
+         
+		 //Custom Axe
+         // myCustomAxe = new CustomAxe(PLA)
+         // 	.setUnlocalizedName("mycustomaxe");
+		//GameRegistry.registerItem(myCustomAxe, "CustomAxe");
+         
+         
          GameRegistry.registerItem(MyLauncher, "MyLauncher");
+         GameRegistry.registerItem(MyFood, "MyFood");
          
          
-         myCustomSword = new CustomSword(PLA)
-         .setUnlocalizedName("customsword");
          
-         GameRegistry.registerItem(myCustomSword, "customsword");
+         
          
          
          CreativeTabs tabCustom = new CreativeTabs("tabName") {
@@ -232,8 +218,7 @@ public class MyCode {
         	};
          
          
-        // axeTutorial = new CustomAxe(TUTORIALMATERIAL)
-        // 	.setUnlocalizedName("axeTutorial");
+       
          
          // GameRegistry.registerItem(axeTutorial, "axeTutorial");
    

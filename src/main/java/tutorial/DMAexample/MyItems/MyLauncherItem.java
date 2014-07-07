@@ -6,18 +6,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
-import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
+
+//SNOWBALL IMPORTS
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntitySnowball;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.projectile.EntitySnowball;
+import tutorial.DMAexample.MyEntities.DeathBallEntity;
 import net.minecraft.world.World;
-import java.util.List;
-import tutorial.DMAexample.YourModsName;
-import tutorial.DMAexample.MyItems.DeathBallEntity;
 
 
 
@@ -29,10 +25,13 @@ public class MyLauncherItem extends Item
 	              this.setHasSubtypes(true);
 	      		  this.setCreativeTab(CreativeTabs.tabMaterials);
 	        }
+	        
+	        //SNOWBALL CODE ***
 	        /**
 	         * Called whenever this item is equipped and the right mouse button is pressed. Args: itemStack, world, entityPlayer
 	         */
-	        public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
+	        @Override
+			public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
 	        {
 	            if (!par3EntityPlayer.capabilities.isCreativeMode)
 	            {
@@ -43,7 +42,8 @@ public class MyLauncherItem extends Item
 
 	            if (!par2World.isRemote)
 	            {
-	                par2World.spawnEntityInWorld(new DeathBallEntity(par2World, par3EntityPlayer));
+	            	par2World.spawnEntityInWorld(new EntitySnowball(par2World, par3EntityPlayer));
+	                //par2World.spawnEntityInWorld(new DeathBallEntity(par2World, par3EntityPlayer));
 	            }
 
 	            return par1ItemStack;
@@ -51,10 +51,11 @@ public class MyLauncherItem extends Item
 	        //Load Icons and Textures Properly
 	    	@SideOnly(Side.CLIENT)
 	    	private IIcon[] icons;
-	        @SideOnly(Side.CLIENT) 
+	        @Override
+			@SideOnly(Side.CLIENT) 
 	        public void registerIcons(IIconRegister par1IconRegister)
 	        {
-	            this.itemIcon = par1IconRegister.registerIcon("mycode:" 
+	            this.itemIcon = par1IconRegister.registerIcon("yourmodsname:" 
 	            + (this.getUnlocalizedName().substring(5)));
 	        }
 	      }

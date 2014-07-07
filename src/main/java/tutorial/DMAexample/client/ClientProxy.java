@@ -5,7 +5,7 @@ import cpw.mods.fml.common.registry.EntityRegistry;
 import net.minecraftforge.client.MinecraftForgeClient;
 import tutorial.DMAexample.CommonProxy;
 import tutorial.DMAexample.MyCode;
-import tutorial.DMAexample.MyItems.DeathBallEntity;
+import tutorial.DMAexample.MyEntities.DeathBallEntity;
 
 
 public class ClientProxy extends CommonProxy {
