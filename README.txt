@@ -1,37 +1,36 @@
--------------------------------------------
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+1.) Next we want to open up terminal, and type in Òcd Ò. Once we do that we will drag the folder containing forge into terminal, this will copy the path to the folder. It should look like:
 
-Note also that the patches are built against "unrenamed" MCP source code (aka
-srgnames) - this means that you will not be able to read them directly against
-normal code.
+cd /User/Username/Desktop/YourName_Modding
 
-Source pack installation information:
 
-Standalone source installation
-==============================
+This points terminal to the correct folder, the next step will make sure the folder has the proper permissions.
 
-To install this source code for development purposes, extract this zip file.
-It ships with a demonstration mod. Run 'gradlew setupDevWorkspace' to create
-a gradle environment primed with FML. Run 'gradlew eclipse' or 'gradlew idea' to
-create an IDE workspace of your choice.
-Refer to ForgeGradle for more information about the gradle environment
-Note: On macs or linux you run the './gradlew.sh' instead of 'gradlew'
+ 
 
-Forge source installation
-=========================
-MinecraftForge ships with this code and installs it as part of the forge
-installation process, no further action is required on your part.
+2.) This will setup the proper permissions for the folder, just in case.
 
-For reference this is version @MAJOR@.@MINOR@.@REV@.@BUILD@ of FML
-for Minecraft version @MCVERSION@.
+chmod +x gradlew
 
-LexManos' Install Video
-=======================
-https://www.youtube.com/watch?v=8VEdtQLuLO0&feature=youtu.be
 
-For more details update more often refer to the Forge Forums:
-http://www.minecraftforge.net/forum/index.php/topic,14048.0.html
+ 
+
+3.) This command tell gradlew to go ahead and decompile minecraft for modding, this will download and process files and normally takes less than 10 minutes.
+
+./gradlew setupDecompWorkspace --refresh-dependencies
+
+
+ 
+
+4.) Allow Terminal to run through this process
+
+ 
+
+5.) When it completes you should see the following. You are looking for a ÒBUILD SUCCESSFULÓ message.
+
+ 
+
+6.) Tell Gradlew what IDE () it should prepare files for, in this case we will be using eclipse.
+
+./gradlew eclipse
+
+

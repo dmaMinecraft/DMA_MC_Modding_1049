@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="EntityPlasma" key="selection"/>
+		<item value="yourmodsname:" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="mycode:"/>
 			<item value="EntitySnowball"/>
 			<item value="text"/>
 			<item value="load"/>
@@ -15,9 +16,9 @@
 			<item value=".png"/>
 			<item value="mylaunc"/>
 			<item value="my"/>
-			<item value="mylaunch"/>
 		</list>
 		<list key="replacehistory">
+			<item value="yourmodsname:"/>
 			<item value="EntityPlasma"/>
 			<item value="DeathBallEntity"/>
 		</list>
@@ -26,7 +27,7 @@
 		<item value="263" key="DIALOG_WIDTH"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="120" key="DIALOG_Y_ORIGIN"/>
-		<item value="52" key="DIALOG_X_ORIGIN"/>
+		<item value="57" key="DIALOG_Y_ORIGIN"/>
+		<item value="407" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>
