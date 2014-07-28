@@ -42,8 +42,8 @@ public class MyLauncherItem extends Item
 
 	            if (!par2World.isRemote)
 	            {
-	            	par2World.spawnEntityInWorld(new EntitySnowball(par2World, par3EntityPlayer));
-	                //par2World.spawnEntityInWorld(new DeathBallEntity(par2World, par3EntityPlayer));
+	            	//par2World.spawnEntityInWorld(new EntitySnowball(par2World, par3EntityPlayer));
+	                par2World.spawnEntityInWorld(new DeathBallEntity(par2World, par3EntityPlayer));
 	            }
 
 	            return par1ItemStack;

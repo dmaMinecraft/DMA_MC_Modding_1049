@@ -6,6 +6,7 @@ import net.minecraftforge.client.MinecraftForgeClient;
 import tutorial.DMAexample.CommonProxy;
 import tutorial.DMAexample.MyCode;
 import tutorial.DMAexample.MyEntities.DeathBallEntity;
+import tutorial.DMAexample.render.renderDeathBall;
 
 
 public class ClientProxy extends CommonProxy {
@@ -16,8 +17,10 @@ public class ClientProxy extends CommonProxy {
         	
         	/*EntityRegistry.registerGlobalEntityID(DeathBallEntity.class, "DeathBall", EntityRegistry.findGlobalUniqueEntityId());
     		System.out.println("Entity Reged");
-        	RenderingRegistry.registerEntityRenderingHandler(DeathBallEntity.class, new RenderDeathBall(MyCode.MyLauncher));
-    		//System.out.println("Renderer Reged");*/
+        	RenderingRegistry.registerEntityRenderingHandler(DeathBallEntity.class, new renderDeathBall(MyCode.MyLauncher));
+    		System.out.println("Renderer Reged");
+    		RenderingRegistry.registerEntityRenderingHandler(EntityTest.class, new RenderTest(new ModelBiped(), 0.5F));
+    		*/
         }
         
 }

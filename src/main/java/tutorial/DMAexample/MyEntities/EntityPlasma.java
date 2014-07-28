@@ -37,7 +37,7 @@ public class EntityPlasma extends EntityThrowable
 	    {
 	      //TODO - auto generated method stub
 	    	System.out.println(this.chunkCoordX + ":x "+ this.chunkCoordY + ":Y "+ this.chunkCoordZ + ":Z ");
-	    	
+	    	//int x = thi
 	    	this.worldObj.setBlock(this.chunkCoordX, this.chunkCoordY, this.chunkCoordZ, Blocks.bedrock);
 	        this.setDead();
 	    }

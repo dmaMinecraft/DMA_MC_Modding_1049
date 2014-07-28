@@ -1,32 +1,32 @@
-[12:52:58] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[12:52:58] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[12:52:58] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[12:52:58] [main/INFO]: Forge Mod Loader version 7.2.137.1049 for Minecraft 1.7.2 loading
-[12:52:58] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_65, running on Mac OS X:x86_64:10.9.3, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-[12:52:58] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[12:52:58] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:52:58] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[12:52:58] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:52:58] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:52:58] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:52:58] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[12:52:58] [main/ERROR]: The minecraft jar file:/Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
-[12:52:58] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
-[12:52:58] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
-[12:52:58] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[12:52:58] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:52:58] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[12:52:59] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[12:53:00] [main/INFO]: Setting user: Player968
-[12:53:00] [Client thread/INFO]: LWJGL Version: 2.9.1
-[12:53:01] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[12:53:01] [Client thread/INFO]: MinecraftForge v10.12.0.1049 Initialized
-[12:53:01] [Client thread/INFO]: Replaced 141 ore recipies
-[12:53:01] [Client thread/INFO]: Completed early MinecraftForge initialization
-[12:53:01] [Client thread/INFO]: Searching /Course Assets/mc_modding/DMA_MC_Modding_1049/eclipse/mods for mods
-[12:53:01] [Client thread/INFO]: Mod DMA Example is missing the required element 'name'. Substituting DMA Example
-[12:53:01] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[12:53:03] [Client thread/ERROR]: Unable to read a class file correctly
+[10:16:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:16:45] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:16:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:16:45] [main/INFO]: Forge Mod Loader version 7.2.137.1049 for Minecraft 1.7.2 loading
+[10:16:45] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_65, running on Mac OS X:x86_64:10.9.4, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+[10:16:45] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:16:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:16:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[10:16:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:16:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:16:45] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:16:45] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[10:16:45] [main/ERROR]: The minecraft jar file:/Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[10:16:45] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[10:16:45] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[10:16:45] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[10:16:45] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:16:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[10:16:46] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:16:47] [main/INFO]: Setting user: Player44
+[10:16:47] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:16:48] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[10:16:48] [Client thread/INFO]: MinecraftForge v10.12.0.1049 Initialized
+[10:16:48] [Client thread/INFO]: Replaced 141 ore recipies
+[10:16:48] [Client thread/INFO]: Completed early MinecraftForge initialization
+[10:16:48] [Client thread/INFO]: Searching /Course Assets/mc_modding/DMA_MC_Modding_1049/eclipse/mods for mods
+[10:16:48] [Client thread/INFO]: Mod yourmodsname is missing the required element 'name'. Substituting yourmodsname
+[10:16:48] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[10:16:50] [Client thread/ERROR]: Unable to read a class file correctly
 java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:170) ~[asm-debug-all-4.1.jar:4.1]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:153) ~[asm-debug-all-4.1.jar:4.1]
@@ -49,7 +49,7 @@ java.lang.IllegalArgumentException
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:53:03] [Client thread/ERROR]: There was a problem reading the file /Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/start/GradleStart.class - probably this is a corrupt file
+[10:16:50] [Client thread/ERROR]: There was a problem reading the file /Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/start/GradleStart.class - probably this is a corrupt file
 cpw.mods.fml.common.LoaderException: java.lang.IllegalArgumentException
 	at cpw.mods.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:58) ~[ASMModParser.class:?]
 	at cpw.mods.fml.common.discovery.DirectoryDiscoverer.exploreFileSystem(DirectoryDiscoverer.java:100) [DirectoryDiscoverer.class:?]
@@ -75,7 +75,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:424) ~[asm-debug-all-4.1.jar:4.1]
 	at cpw.mods.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:52) ~[ASMModParser.class:?]
 	... 17 more
-[12:53:03] [Client thread/WARN]: Identified a problem with the mod candidate /Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/start, ignoring this source
+[10:16:50] [Client thread/WARN]: Identified a problem with the mod candidate /Users/DMA_VR/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/start, ignoring this source
 cpw.mods.fml.common.LoaderException: java.lang.IllegalArgumentException
 	at cpw.mods.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:58) ~[ASMModParser.class:?]
 	at cpw.mods.fml.common.discovery.DirectoryDiscoverer.exploreFileSystem(DirectoryDiscoverer.java:100) ~[DirectoryDiscoverer.class:?]
@@ -101,11 +101,11 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:424) ~[asm-debug-all-4.1.jar:4.1]
 	at cpw.mods.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:52) ~[ASMModParser.class:?]
 	... 17 more
-[12:53:03] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[12:53:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DMA Example
-[12:53:03] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[12:53:04] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/my_dragon_egg_bottom.png
-java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_bottom.png
+[10:16:50] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[10:16:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:yourmodsname
+[10:16:50] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[10:16:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_top.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_top.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -122,8 +122,8 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_bottom
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:53:04] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/my_dragon_egg_side.png
-java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_side.png
+[10:16:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_bottom.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_bottom.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -140,9 +140,8 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_side.p
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:53:04] [Sound Library Loader/INFO]: Sound engine started
-[12:53:04] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/my_dragon_egg_top.png
-java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_top.png
+[10:16:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_side.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_side.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -159,13 +158,14 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_top.pn
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:53:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:53:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:53:04] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[12:53:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DMA Example
-[12:53:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:53:04] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/my_dragon_egg_bottom.png
-java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_bottom.png
+[10:16:51] [Sound Library Loader/INFO]: Sound engine started
+[10:16:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:16:51] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:16:51] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[10:16:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:yourmodsname
+[10:16:51] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:16:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_top.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_top.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -185,8 +185,8 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_bottom
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:53:04] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/my_dragon_egg_side.png
-java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_side.png
+[10:16:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_bottom.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_bottom.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -206,8 +206,8 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_side.p
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:53:04] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/my_dragon_egg_top.png
-java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_top.png
+[10:16:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_side.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_side.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -227,76 +227,209 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/my_dragon_egg_top.pn
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:53:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:53:05] [Sound Library Loader/INFO]: Sound engine started
-[12:53:05] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[12:53:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[12:53:09] [Server thread/INFO]: Generating keypair
-[12:53:09] [Server thread/INFO]: Found a missing id from the world DMA Example:MyBow
-[12:53:09] [Server thread/INFO]: Found a missing id from the world DMA Example:Super Plasma Gun
-[12:53:09] [Server thread/INFO]: Found item id mismatch DMA Example:MyLauncher : 4096 4097
-[12:53:09] [Server thread/INFO]: Found a missing id from the world DMA Example:customsword
-[12:53:09] [Server thread/ERROR]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[12:53:09] [Server thread/ERROR]: This world contains blocks and items that refuse to be remapped. The world will not be loaded
-[12:53:09] [Server thread/ERROR]: Encountered an unexpected exception
-cpw.mods.fml.common.registry.GameRegistryException: Failed to load the world - there are fatal block and item id issues
-	at cpw.mods.fml.common.FMLContainer.readData(FMLContainer.java:193) ~[FMLContainer.class:?]
-	at cpw.mods.fml.common.FMLCommonHandler.handleWorldDataLoad(FMLCommonHandler.java:386) ~[FMLCommonHandler.class:?]
-	at net.minecraft.world.storage.SaveHandler.loadWorldInfo(SaveHandler.java:143) ~[SaveHandler.class:?]
-	at net.minecraft.world.World.<init>(World.java:261) ~[World.class:?]
-	at net.minecraft.world.WorldServer.<init>(WorldServer.java:103) ~[WorldServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:63) ~[IntegratedServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:96) ~[IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:739) [MinecraftServer$2.class:?]
-[12:53:09] [Server thread/ERROR]: This crash report has been saved to: /Course Assets/mc_modding/DMA_MC_Modding_1049/eclipse/./crash-reports/crash-2014-07-09_12.53.09-server.txt
-[12:53:09] [Server thread/INFO]: The state engine was in incorrect state SERVER_STARTING and forced into state SERVER_STOPPED. Errors may have been discarded.
-[12:53:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[12:53:24] [Server thread/INFO]: Generating keypair
-[12:53:24] [Server thread/INFO]: Converting map!
-[12:53:24] [Server thread/INFO]: Scanning folders...
-[12:53:24] [Server thread/INFO]: Total conversion count is 0
-[12:53:24] [Server thread/INFO]: Injecting new block and item data into this server instance
-[12:53:24] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@622b104)
-[12:53:24] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@622b104)
-[12:53:24] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@622b104)
-[12:53:24] [Server thread/INFO]: Preparing start region for level 0
-[12:53:25] [Server thread/INFO]: Preparing spawn area: 8%
-[12:53:26] [Server thread/INFO]: Preparing spawn area: 18%
-[12:53:27] [Server thread/INFO]: Preparing spawn area: 30%
-[12:53:28] [Server thread/INFO]: Preparing spawn area: 41%
-[12:53:29] [Server thread/INFO]: Preparing spawn area: 54%
-[12:53:30] [Server thread/INFO]: Preparing spawn area: 65%
-[12:53:31] [Server thread/INFO]: Preparing spawn area: 76%
-[12:53:32] [Server thread/INFO]: Preparing spawn area: 88%
-[12:53:33] [Netty Client IO #1/INFO]: Server protocol version 1
-[12:53:33] [Netty IO #3/INFO]: Client protocol version 1
-[12:53:33] [Netty IO #3/INFO]: Client attempting to join with 4 mods : mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049,DMA Example@1.0
-[12:53:33] [Netty IO #3/INFO]: Attempting connection with missing mods [] at CLIENT
-[12:53:33] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
-[12:53:33] [Client thread/INFO]: [Client thread] Client side modded connection established
-[12:53:33] [Server thread/INFO]: [Server thread] Server side modded connection established
-[12:53:33] [Server thread/INFO]: Player968[local:E:201e413e] logged in with entity id 276 at (-142.5, 64.0, 248.5)
-[12:53:33] [Server thread/INFO]: Player968 joined the game
-[12:53:34] [Server thread/INFO]: Saving and pausing game...
-[12:53:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:53:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:53:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:53:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4053ms behind, skipping 81 tick(s)
-[12:53:39] [Server thread/INFO]: Player968 has just earned the achievement [Taking Inventory]
-[12:53:39] [Client thread/INFO]: [CHAT] Player968 has just earned the achievement [Taking Inventory]
-[12:53:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 103 ms
-[12:53:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 101 ms
-[12:53:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 107 ms
-[12:53:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 101 ms
-[12:53:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 101 ms
-[12:53:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 107 ms
-[12:54:54] [Client thread/INFO]: Stopping!
-[12:54:54] [Server thread/INFO]: Stopping server
-[12:54:54] [Server thread/INFO]: Saving players
-[12:54:54] [Server thread/INFO]: Saving worlds
-[12:54:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:54:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:54:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:54:54] [Client Shutdown Thread/INFO]: Stopping server
-[12:54:54] [Client Shutdown Thread/INFO]: Saving players
+[10:16:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:16:52] [Sound Library Loader/INFO]: Sound engine started
+[10:16:53] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[10:17:32] [Client thread/INFO]: Deleting level New World---------------
+[10:17:32] [Client thread/INFO]: Attempt 1...
+[10:17:39] [Client thread/INFO]: /Course Assets/mc_modding/DMA_MC_Modding_1049/eclipse/./resourcepacks
+[10:17:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:yourmodsname
+[10:17:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_top.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_top.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:626) [Minecraft.class:?]
+	at net.minecraft.client.gui.GuiScreenResourcePacks.actionPerformed(GuiScreenResourcePacks.java:182) [GuiScreenResourcePacks.class:?]
+	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:248) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreenResourcePacks.mouseClicked(GuiScreenResourcePacks.java:193) [GuiScreenResourcePacks.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:339) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:303) [GuiScreen.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1687) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:996) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:912) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[?:1.6.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[?:1.6.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+[10:17:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_bottom.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_bottom.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:626) [Minecraft.class:?]
+	at net.minecraft.client.gui.GuiScreenResourcePacks.actionPerformed(GuiScreenResourcePacks.java:182) [GuiScreenResourcePacks.class:?]
+	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:248) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreenResourcePacks.mouseClicked(GuiScreenResourcePacks.java:193) [GuiScreenResourcePacks.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:339) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:303) [GuiScreen.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1687) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:996) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:912) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[?:1.6.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[?:1.6.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+[10:17:51] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore_side.png
+java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore_side.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:626) [Minecraft.class:?]
+	at net.minecraft.client.gui.GuiScreenResourcePacks.actionPerformed(GuiScreenResourcePacks.java:182) [GuiScreenResourcePacks.class:?]
+	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:248) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreenResourcePacks.mouseClicked(GuiScreenResourcePacks.java:193) [GuiScreenResourcePacks.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:339) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:303) [GuiScreen.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1687) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:996) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:912) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[?:1.6.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[?:1.6.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+[10:17:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:17:51] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:17:52] [Sound Library Loader/INFO]: Sound engine started
+[10:18:04] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[10:18:04] [Server thread/INFO]: Generating keypair
+[10:18:04] [Server thread/INFO]: Converting map!
+[10:18:04] [Server thread/INFO]: Scanning folders...
+[10:18:04] [Server thread/INFO]: Total conversion count is 0
+[10:18:04] [Server thread/INFO]: Injecting new block and item data into this server instance
+[10:18:05] [Server thread/INFO]: Loading dimension 0 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@1259578d)
+[10:18:05] [Server thread/INFO]: Loading dimension 1 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@1259578d)
+[10:18:05] [Server thread/INFO]: Loading dimension -1 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@1259578d)
+[10:18:05] [Server thread/INFO]: Preparing start region for level 0
+[10:18:06] [Server thread/INFO]: Preparing spawn area: 8%
+[10:18:07] [Server thread/INFO]: Preparing spawn area: 23%
+[10:18:08] [Server thread/INFO]: Preparing spawn area: 39%
+[10:18:09] [Server thread/INFO]: Preparing spawn area: 58%
+[10:18:10] [Server thread/INFO]: Preparing spawn area: 76%
+[10:18:11] [Server thread/INFO]: Preparing spawn area: 97%
+[10:18:11] [Netty Client IO #0/INFO]: Server protocol version 1
+[10:18:11] [Netty IO #1/INFO]: Client protocol version 1
+[10:18:11] [Netty IO #1/INFO]: Client attempting to join with 4 mods : mcp@8.09,FML@7.2.137.1049,yourmodsname@1.0,Forge@10.12.0.1049
+[10:18:11] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[10:18:11] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[10:18:11] [Client thread/INFO]: [Client thread] Client side modded connection established
+[10:18:11] [Server thread/INFO]: [Server thread] Server side modded connection established
+[10:18:11] [Server thread/INFO]: Player44[local:E:4fcd6276] logged in with entity id 137 at (41.5, 66.0, 251.5)
+[10:18:11] [Server thread/INFO]: Player44 joined the game
+[10:18:16] [Server thread/INFO]: Player44 has just earned the achievement [Taking Inventory]
+[10:18:16] [Client thread/INFO]: [CHAT] Player44 has just earned the achievement [Taking Inventory]
+[10:18:18] [Server thread/INFO]: Saving and pausing game...
+[10:18:18] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Overworld
+[10:18:18] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Nether
+[10:18:18] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/The End
+[10:18:20] [Server thread/INFO]: Stopping server
+[10:18:20] [Server thread/INFO]: Saving players
+[10:18:20] [Server thread/INFO]: Saving worlds
+[10:18:20] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Overworld
+[10:18:20] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Nether
+[10:18:20] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/The End
+[10:18:21] [Server thread/INFO]: Unloading dimension 0
+[10:18:21] [Server thread/INFO]: Unloading dimension -1
+[10:18:21] [Server thread/INFO]: Unloading dimension 1
+[10:18:32] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[10:18:32] [Server thread/INFO]: Generating keypair
+[10:18:33] [Server thread/INFO]: Converting map!
+[10:18:33] [Server thread/INFO]: Scanning folders...
+[10:18:33] [Server thread/INFO]: Total conversion count is 0
+[10:18:33] [Server thread/INFO]: Injecting new block and item data into this server instance
+[10:18:33] [Server thread/INFO]: Loading dimension 0 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@67e1a796)
+[10:18:33] [Server thread/INFO]: Loading dimension 1 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@67e1a796)
+[10:18:33] [Server thread/INFO]: Loading dimension -1 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@67e1a796)
+[10:18:33] [Server thread/INFO]: Preparing start region for level 0
+[10:18:34] [Server thread/INFO]: Preparing spawn area: 20%
+[10:18:35] [Server thread/INFO]: Preparing spawn area: 36%
+[10:18:36] [Server thread/INFO]: Preparing spawn area: 55%
+[10:18:37] [Server thread/INFO]: Preparing spawn area: 74%
+[10:18:38] [Server thread/INFO]: Preparing spawn area: 95%
+[10:18:38] [Netty Client IO #1/INFO]: Server protocol version 1
+[10:18:38] [Netty IO #3/INFO]: Client protocol version 1
+[10:18:38] [Netty IO #3/INFO]: Client attempting to join with 4 mods : mcp@8.09,FML@7.2.137.1049,yourmodsname@1.0,Forge@10.12.0.1049
+[10:18:38] [Netty IO #3/INFO]: Attempting connection with missing mods [] at CLIENT
+[10:18:38] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
+[10:18:38] [Server thread/INFO]: [Server thread] Server side modded connection established
+[10:18:38] [Server thread/INFO]: Player44[local:E:bd62a9be] logged in with entity id 4171 at (41.5, 66.0, 251.5)
+[10:18:38] [Server thread/INFO]: Player44 joined the game
+[10:18:38] [Client thread/INFO]: [Client thread] Client side modded connection established
+[10:18:38] [Server thread/INFO]: Saving and pausing game...
+[10:18:38] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Overworld
+[10:18:41] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Nether
+[10:18:41] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/The End
+[10:18:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2763ms behind, skipping 55 tick(s)
+[10:18:42] [Server thread/INFO]: Player44 has just earned the achievement [Taking Inventory]
+[10:18:42] [Client thread/INFO]: [CHAT] Player44 has just earned the achievement [Taking Inventory]
+[10:18:43] [Server thread/INFO]: Saving and pausing game...
+[10:18:43] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Overworld
+[10:18:44] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Nether
+[10:18:44] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/The End
+[10:18:44] [Server thread/INFO]: Stopping server
+[10:18:44] [Server thread/INFO]: Saving players
+[10:18:44] [Server thread/INFO]: Saving worlds
+[10:18:44] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Overworld
+[10:18:44] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Nether
+[10:18:44] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/The End
+[10:18:46] [Server thread/INFO]: Unloading dimension 0
+[10:18:46] [Server thread/INFO]: Unloading dimension -1
+[10:18:46] [Server thread/INFO]: Unloading dimension 1
+[10:18:53] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[10:18:53] [Server thread/INFO]: Generating keypair
+[10:18:53] [Server thread/INFO]: Injecting new block and item data into this server instance
+[10:18:53] [Server thread/INFO]: Loading dimension 0 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@4e46f11)
+[10:18:53] [Server thread/INFO]: Loading dimension 1 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@4e46f11)
+[10:18:53] [Server thread/INFO]: Loading dimension -1 (BaseTest World) (net.minecraft.server.integrated.IntegratedServer@4e46f11)
+[10:18:53] [Server thread/INFO]: Preparing start region for level 0
+[10:18:54] [Netty Client IO #2/INFO]: Server protocol version 1
+[10:18:54] [Netty IO #5/INFO]: Client protocol version 1
+[10:18:54] [Netty IO #5/INFO]: Client attempting to join with 4 mods : mcp@8.09,FML@7.2.137.1049,yourmodsname@1.0,Forge@10.12.0.1049
+[10:18:54] [Netty IO #5/INFO]: Attempting connection with missing mods [] at CLIENT
+[10:18:54] [Netty Client IO #2/INFO]: Attempting connection with missing mods [] at SERVER
+[10:18:54] [Client thread/INFO]: [Client thread] Client side modded connection established
+[10:18:54] [Server thread/INFO]: [Server thread] Server side modded connection established
+[10:18:54] [Server thread/INFO]: Player44[local:E:4efa080d] logged in with entity id 6079 at (41.5, 66.0, 251.5)
+[10:18:54] [Server thread/INFO]: Player44 joined the game
+[10:19:02] [Server thread/INFO]: Saving and pausing game...
+[10:19:02] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Overworld
+[10:19:02] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Nether
+[10:19:02] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/The End
+[10:19:06] [Server thread/INFO]: Saving and pausing game...
+[10:19:06] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Overworld
+[10:19:06] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Nether
+[10:19:06] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/The End
+[10:19:07] [Server thread/INFO]: Stopping server
+[10:19:07] [Server thread/INFO]: Saving players
+[10:19:07] [Server thread/INFO]: Saving worlds
+[10:19:07] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Overworld
+[10:19:07] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/Nether
+[10:19:07] [Server thread/INFO]: Saving chunks for level 'BaseTest World'/The End
+[10:19:07] [Server thread/INFO]: Unloading dimension 0
+[10:19:07] [Server thread/INFO]: Unloading dimension -1
+[10:19:07] [Server thread/INFO]: Unloading dimension 1
+[10:19:08] [Client thread/INFO]: Stopping!

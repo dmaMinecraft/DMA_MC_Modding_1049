@@ -15,26 +15,20 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraftforge.common.util.EnumHelper;
 
 //MyBlocks
-import tutorial.DMAexample.MyBlocks.HardDirtBlock;
+
 import tutorial.DMAexample.MyBlocks.HardOre;
 import tutorial.DMAexample.MyBlocks.BaseBlock;
-import tutorial.DMAexample.MyBlocks.MyIceBlock;
-import tutorial.DMAexample.MyBlocks.MyTntBlock;
-import tutorial.DMAexample.MyBlocks.MyBlockSlide;
 
 import tutorial.DMAexample.MyEntities.DeathBallEntity;
+
 //MyItems
 import tutorial.DMAexample.MyItems.BaseItem;
-import tutorial.DMAexample.MyItems.CustomAxe;
-import tutorial.DMAexample.MyItems.CustomSword;
 import tutorial.DMAexample.MyItems.MyLauncherItem;
-import tutorial.DMAexample.MyItems.MyBowItem;
-//OreGen
-import tutorial.DMAexample.MyOreGenerator;
 
 
 //MyCreative Tab
 import net.minecraft.creativetab.CreativeTabs;
+
 
 
 //Blocks
@@ -60,24 +54,16 @@ public class MyCode {
 	//List Blocks and Items Here
 	
 	//Blocks
-	public static Block hardDirt;
 	public static Block hardOre;
 	public static Block harderDirt;
 	
 	//Items
-	public static Item MyBow;
 	public static Item MyLauncher;
-	public static Item myCustomAxe;
-	public static Item myCustomSword;
 	public static Item MyFood;
-
-	
 	
 	//Tool
 	//public static Item axeTutorial;
-    
-	
-	public static Item.ToolMaterial PLA = EnumHelper.addToolMaterial("PLA", 3, 192, 5.0F, 1.5F, 12);
+	//public static Item.ToolMaterial PLA = EnumHelper.addToolMaterial("PLA", 3, 192, 5.0F, 1.5F, 12);
 
 	
 	//Tool Material
@@ -85,22 +71,14 @@ public class MyCode {
 	//public static final ArmorMaterial CUS TOM_MATERIAL= EnumHelper.addArmorMaterial("Custom", 5, new int[] {1,3,2,1}, 5);
 	
 	public static void MyBlocks(){
-	
-		//Harden Dirt
-		 hardDirt = new MyBlockSlide(Material.ground)
-         .setHardness(2.0F)
-         .setStepSound(Block.soundTypeGravel)
-         .setBlockName("hardDirt")
-         .setCreativeTab(CreativeTabs.tabBlock)
-         .setBlockTextureName("dirt");
-		 
-		//Harden Dirt
+
+		//Harderened Dirt
 		 harderDirt = new BaseBlock(Material.ground)
          .setHardness(12.0F)
          .setStepSound(Block.soundTypeGravel)
          .setBlockName("harderDirt")
          .setCreativeTab(CreativeTabs.tabBlock)
-         .setBlockTextureName("yourmodsname:mycom_block");
+         .setBlockTextureName("ice");
 		 
 		 //Harden Ore
 		 hardOre = new HardOre(Material.iron)
@@ -108,14 +86,13 @@ public class MyCode {
          .setStepSound(Block.soundTypeGravel)
          .setBlockName("hardOre")
          .setCreativeTab(CreativeTabs.tabBlock)
-         .setBlockTextureName("yourmodsname:my_dragon_egg");
+         .setBlockTextureName("yourmodsname:hardore_pumpkinore");
 		 
 		 //Harvest Level
-		 hardDirt.setHarvestLevel("shovel", 1);
+		 harderDirt.setHarvestLevel("shovel", 1);
 		 hardOre.setHarvestLevel("pickaxe", 3);		 
 		 
 		 //Register Items
-		 GameRegistry.registerBlock(hardDirt, "HardDirt");
 		 GameRegistry.registerBlock(hardOre, "HardOre");
 		 GameRegistry.registerBlock(harderDirt, "HarderDirt");
 		 
@@ -135,23 +112,22 @@ public class MyCode {
 		
 	//Shaped 
 		
-		//Comment Every Recipe!!!!!!!!!!!!!!!!!!! Pumpkin Pie from cactus, gold, cocoa beans.
-		//This recipe is so expensive because pumpkin pie is hard to make
+		//Comment Every Recipe!!!!!!!!!!!!!!!!!!! Hard Ore from cactus, gold, cocoa beans.
+		//This recipe is so expensive for no good reason
 		 GameRegistry.addRecipe(new ItemStack(hardOre, 10), new Object[] 
 					{
-				    " AD", "AB ", " C ",
+				    "AAA", "BBB", "C C",
 					'A', Blocks.gold_block,
 					'B', new ItemStack(Items.dye, 1, 3),
 				    'C', Blocks.cactus,
-				    'D', hardDirt,
 					});
 		 
-		 ItemStack sharpSteak = new ItemStack(MyBow);
-		 sharpSteak.addEnchantment(Enchantment.sharpness, 300);
+		 ItemStack sharpLauncher = new ItemStack(MyLauncher);
+		 sharpLauncher.addEnchantment(Enchantment.sharpness, 300);
 		 //sharpSteak.addEnchantment(Enchantment.sharpness, 3);
 		 
 		 //Make Pumpkin Pie - Really messed up pumpkin pie recipe 
-		 GameRegistry.addRecipe(sharpSteak, new Object[] 
+		 GameRegistry.addRecipe(sharpLauncher, new Object[] 
 					{
 				    " A", "AB",
 					'A', Blocks.gold_block,
@@ -175,20 +151,18 @@ public class MyCode {
 		MyLauncher = new MyLauncherItem()
 		.setMaxStackSize(1)
 		.setUnlocalizedName("launcher_item");
-
-		/*
-		 MyBow = new MyBowItem()
-		 		.setMaxStackSize(1)
-		 		.setCreativeTab(CreativeTabs.tabBlock)
-		 		.setTextureName("yourmodsname:mybow")
-		 		.setUnlocalizedName("mybow");
-		 GameRegistry.registerItem(MyBow, "MyBow");
-		 */
 		
 		 MyFood = new ItemFood(6, 0.6F, false)
 		 .setUnlocalizedName("potatoBaked")
 		 .setTextureName("potato_baked");
-        	  
+        	
+		 GameRegistry.registerItem(MyLauncher, "MyLauncher");
+         GameRegistry.registerItem(MyFood, "MyFood");
+		 
+		 
+		 
+		 
+		 
          //Custom Sword
          //myCustomSword = new CustomSword(PLA)
          //.setUnlocalizedName("customsword");
@@ -200,8 +174,7 @@ public class MyCode {
 		//GameRegistry.registerItem(myCustomAxe, "CustomAxe");
          
          
-         GameRegistry.registerItem(MyLauncher, "MyLauncher");
-         GameRegistry.registerItem(MyFood, "MyFood");
+        
          
          
          

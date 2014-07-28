@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="yourmodsname:" key="selection"/>
+		<item value="pumpk" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="pumpk"/>
+			<item value="pumpl"/>
+			<item value=".png"/>
 			<item value="mycode:"/>
 			<item value="EntitySnowball"/>
 			<item value="text"/>
 			<item value="load"/>
 			<item value="snow"/>
-			<item value=".png"/>
-			<item value="mylaunc"/>
-			<item value="my"/>
 		</list>
 		<list key="replacehistory">
 			<item value="yourmodsname:"/>
